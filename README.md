@@ -54,3 +54,43 @@ Once trained, the model can predict emotions on new facial images. Sample result
 Feel free to fork this repository, make improvements, and submit pull requests.
 
 
+
+# Emotion Recognition -cv2
+
+This is a Python project that utilizes the `facial_emotion_recognition` library and OpenCV to detect and display facial emotions in real time using a webcam.
+
+## Features
+- Real-time facial emotion recognition.
+- Uses OpenCV for video capture and display.
+- Works on CPU.
+
+## Prerequisites
+Ensure you have the following installed:
+- Python 3.x
+- OpenCV (`cv2`)
+- `facial_emotion_recognition` library
+
+## Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/yourusername/emotion-recognition.git
+   cd emotion-recognition
+   ```
+2. Install the required dependencies:
+   ```sh
+   pip install opencv-python facial_emotion_recognition
+   ```
+
+## Usage
+Run the script to start the emotion recognition:
+```sh
+python emotionRecognition.py
+```
+
+Press `ESC` to exit the application.
+
+
+
+
+
+
